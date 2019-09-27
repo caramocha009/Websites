@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+
+body {
+    font-family: 'Space Mono', monospace;
+    max-width: 1200px;
+    margin: 150px 100px 150px 100px; 
+    background-color: #000;
+}
+
+header {
+    max-width: 100%;
+}
+
+.logo {
+    margin-bottom: 150px;
+    width: 100%;
+}
+
+.text {
+    max-width: 350px;
+    margin-bottom: 90px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #eee;
+}
+
+.picture-1 img,
+.picture-3 img,
+.picture-4 img {
+    max-width: 1200px;
+    width: 100%;
+}
+
+.picture-1 img {
+    margin-bottom: 90px;
+}
+
+.picture-2 {
+    max-width: 630px;
+}
+
+.picture-2 img { 
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.picture-3 img {
+    margin-bottom: 50px;
+}
+
+.picture-4 img {
+    margin-bottom: 90px;
+}
+
+.product-link {
+    background-color: #eee;
+    margin-bottom: 90px;
+}
+
+.product-link p {
+    color: #000;
+    padding: 1em;
+}
+
+h2 {
+    color: #eee;
+    font-size: 24px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #eee;
+    max-width: 1200px;
+}
+
+.our-process p {
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+
+.our-process {
+    max-width: 400px;
+}
+
+h3 {
+    color: #fff;
+    font-size: 14px;
+    padding: 0;
+}
+
+.contact {
+    padding: 50px 50px 50px 50px;
+    background-color: #1a1a1a;
+}
+
+.email,
+.social-sharing {
+    color: #6a6a6a;
+}
+
+.email {
+    padding-bottom: 30px;
+}
+
+a {
+    color: #6a6a6a;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 760px) {
+    body {
+        margin: 2em;
+    }
+    .logo img {
+        max-width: 50vw;
+    }
+
+    .logo {
+        margin-bottom: 2em;
+    }
+
+    p {
+        font-size: 1em; 
+        line-height: 1.5;
+    }
+
+    .contact {
+        width: 100vw;
+        margin-left: -30px;
+        margin-right: -30px;
+        margin-bottom: -30px
+    }
+
+    .social-sharing {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .social-sharing a {
+        padding: 1em;
+    }
+}   

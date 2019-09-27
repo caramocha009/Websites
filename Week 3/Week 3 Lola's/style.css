@@ -1,0 +1,235 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Work Sans', serif;
+}
+
+header {
+    background-color: #2f6a49;
+    overflow: hidden;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px 20px 20px;
+}
+
+.logo {
+    float: left;
+    height: 30px;
+
+}
+
+nav {
+    float: right;
+}
+
+nav a {
+    font-size: 16px;
+    font-family: 'Work Sans', serif; 
+    color: #eeeeee;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+nav a:hover {
+    border-bottom: 2px solid #FFB6C4;
+}
+
+.hero {
+    background: url(1-Assets/header-background.svg) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h2 {
+    padding-top: 275px;
+    padding-bottom: 275px;
+    margin: 0;
+    max-width: 800px;
+    font-size: 80px;
+    font-family: 'Work Sans', serif;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: center;
+    color: #fe5504;
+}
+
+.about {
+    background-color: #ffb6c4;
+    color: #2f6a49;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-text {
+    max-width: 800px;
+}
+
+.about h3 {
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.about p {
+    font-size: 26px;
+}
+
+.food {
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
+    white-space: nowrap;
+    background-color: #ffda00;
+    height: 400px;
+}
+
+.yellow-description {
+    background-color: #ffda00;
+    padding: 60px 80px 50px 80px;
+    color: #2f6a49;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 50%;
+    float: left; 
+    height: 100%;
+}
+
+.yellow-description p {
+    font-size: 26;
+    white-space: normal;
+}
+
+.food-text {
+    max-width: 400px;
+}
+
+.almonds {
+    width: 50%;
+    overflow: hidden;
+    height: 400px;
+}
+
+.almonds img {
+    object-fit: cover;
+    max-width: 100%;
+    min-height: 100%;
+
+}
+
+.quotes {
+    background-color: #ffd7b3;
+    padding: 100px 80px;
+}
+
+.quotes p {
+    font-size: 36px;
+    color: #2f6a49;
+    text-align: center;
+}
+
+.images {
+    white-space: nowrap;
+    font-size: 0;
+}
+
+.images img {
+    width: 33.3%;
+}
+
+.contact {
+    width: 100%;
+    background-color: #2f6a49;
+    white-space: nowrap;
+    display: inline-block;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.block {
+    width: 33.3%;
+    white-space: normal;
+    float: left;
+    padding: 45px;
+    box-sizing: border-box;
+}
+
+.block img {
+    border-radius: 100%;
+    max-width: 250px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.block p {
+    max-width: 250px;
+    text-align: center;
+    color: #ffb6c4;
+    margin: auto;
+    line-height: 1.3;
+    padding-bottom: 20px;
+}
+
+.company-logos {
+    background-color: #fff;
+    height: 250px;
+    color: #fe5504;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.company-logos img {
+    width: 150px;
+}
+
+.company-logos p {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.logos-container img:last-child {
+    width: 225px;
+    padding-bottom: 10px;
+}
+
+.logos-container img:not(:last-child) {
+    margin-right: 50px;
+}
+
+footer {
+    background-color: #ffb6c4;
+    overflow: hidden;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo {
+    float: left;
+    height: 30px;
+
+}
+
+footer p {
+    float: right;
+    font-size: 16px;
+    font-family: 'Work Sans', serif; 
+    color: #2f6a49;
+}

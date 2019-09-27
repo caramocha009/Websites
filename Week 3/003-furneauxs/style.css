@@ -1,0 +1,142 @@
+body {
+    font-family: 'Roboto', serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #473538;
+    margin: 0;
+}
+
+header {
+    padding: 10px 15px;
+    overflow: hidden;
+}
+
+header h1 {
+    float: left;
+}
+
+header nav {
+    float: right;
+    margin-top: 30px;
+}
+
+header nav a {
+    color: #473538;
+    text-decoration: none;
+    margin-left: 12px;
+    text-transform: uppercase;
+}
+
+.hero {
+    background-image: url(assets/hero.jpg);
+    background-size: cover;
+    padding-top: 230px;
+    padding-bottom: 200px;
+    background-position: right center;
+}
+
+.hero div {
+    max-width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-family: 'David Libre', serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flowers img {
+    float: left;
+    width: 33.3333%;
+}
+
+.quotes {
+    overflow: hidden;
+    width: 100%;
+}
+
+.quotes div {
+    box-sizing: border-box;
+    width: 50%;
+    float: left; 
+    text-align: center;
+    padding: 50px 20px 40px 20px;
+}
+
+.quotes img {
+    width: 75px;
+    border-radius: 100%;
+}
+
+.quotes blockquote {
+    font-family: 'David Libre', serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.15;
+    max-width: 400px;
+    margin: 15px auto 5px auto;
+
+}
+
+.cream-background {
+    background-color: #F7F1EE;
+}
+
+.chair {
+    background-image: url(assets/full-bleed.jpg);
+    background-position: center bottom;
+    padding: 0;
+    height: 500px;
+}
+
+.logos {
+    background-color: #eeae9f;
+    padding: 20px 20px 35px 20px;
+    text-align: center;
+}
+
+.logos p {
+    color: white;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.logos img {
+    margin-left: 22px;
+    margin-right: 22px;
+}
+
+footer {
+    background-color: #47353a;
+    padding: 25px 30px;
+    overflow: hidden;
+    height: 50px;
+    position: relative;
+}
+
+footer p {
+    float: right;
+    font-size: 14px;
+    color: #ccc9ca;
+    font-weight: 700;
+}
+
+footer img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}

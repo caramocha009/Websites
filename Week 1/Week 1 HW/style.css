@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.the_pen {
+    height: 100vh;
+    background: #ffffff url(1-Assets/the-pen.svg) 100% no-repeat fixed;
+    background-position: center;
+}
+
+.is_mightier {
+    height: 100vh;
+    background: #000000 url(1-Assets/is-mightier.svg) 100% no-repeat fixed;
+    background-position: center;
+}
+
+.than {
+    height: 100vh;
+    background: #ffffff url(1-Assets/than.svg) 100% no-repeat fixed;
+    background-position: center;
+}
+
+.the_sword {
+    height: 100vh;
+    background: #000000 url(1-Assets/the-sword.svg) 100% no-repeat fixed;
+    background-position: center;
+}
+
+.symbols {
+    height: 100vh;
+    background: #00f10A url(1-Assets/end.svg) 100% no-repeat fixed;
+    background-position: center;
+}
+
+.info {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    right: 50%;
+    width: 30px;
+}
